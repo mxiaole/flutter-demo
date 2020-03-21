@@ -11,15 +11,27 @@ class MyApp extends StatelessWidget {
         appBar: new AppBar(
           title: new Text("Listview widget"),
         ),
-        body: new ListView(
+        // body: new ListView(
+        //   children: <Widget>[
+        //     new ListTile(
+        //       leading: new Icon(Icons.access_alarm),
+        //       title: new Text("today"),
+        //     ),
+        //     new ListTile(
+        //         leading: new Icon(Icons.access_time),
+        //         title: new Text("tomorrow"))
+        //   ],
+        // ),
+        // 网格view
+        body: GridView.count(
+          padding: const EdgeInsets.all(20.0),
+          crossAxisSpacing: 10.0,
+          crossAxisCount: 3, // 每行显示的列数
           children: <Widget>[
-            new ListTile(
-              leading: new Icon(Icons.access_alarm),
-              title: new Text("today"),
-            ),
-            new ListTile(
-                leading: new Icon(Icons.access_time),
-                title: new Text("tomorrow"))
+            new ListTile(title: new Text("today")),
+            new ListTile(title: new Text("tomorrow")),
+            new ListTile(title: new Text("tomorrow")),
+            new ListTile(title: new Text("tomorrow")),
           ],
         ),
       ),
