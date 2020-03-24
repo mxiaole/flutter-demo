@@ -1,12 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2020-03-08 23:25:33
- * @LastEditTime: 2020-03-24 20:53:32
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /layout_demo/Users/jiale/code-2020/flutter-demo/README.md
- -->
-
 flutter是谷歌的移动UI框架。
 
 **配置开发环境**
@@ -35,6 +26,10 @@ flutter是谷歌的移动UI框架。
 ```shell
 flutter run 
 ```
+---
+app的开发：
+- 页面的开发：页面的布局，页面中常用的组件
+- 页面间的关联
 
 ## 2 常用组件
 
