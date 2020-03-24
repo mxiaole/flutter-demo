@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-03-08 23:25:33
+ * @LastEditTime: 2020-03-24 20:53:32
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /layout_demo/Users/jiale/code-2020/flutter-demo/README.md
+ -->
 
 flutter是谷歌的移动UI框架。
 
@@ -69,4 +77,31 @@ style: TextStyle(
     - 图片的填充
     - 图片的颜色混合等
 
+### 2.4 listview组件
+
+### 2.5 gridview组件
+
+## 3 布局
+
+页面的布局就是对app的一个页面进行样式的布局，哪个容器或者组件应该放置在哪里，才会让整个的APP看起来是美观的。
+
+### 3.1 行布局
+
+row
+
+### 3.2 列布局
+
+主轴和副轴
+
+column
+
+### 3.3 层叠布局
+
+stack
+
+### 3.4 层叠定位组件
+
+PositionedWidget
+
+### 3.5 卡片布局
 
